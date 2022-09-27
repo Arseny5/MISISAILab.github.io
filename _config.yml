@@ -1,6 +1,6 @@
 title: "Введение в практические методы оптимизации"
 baseurl: ""
-url: "https://sber223.fmin.xyz"
+url: "https://arseny5.github.io"
 logo: "/images/logo.svg"
 search_enabled: false
 
@@ -20,7 +20,7 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 # Aux links for the upper right navigation
 aux_links:
   "fmin.xyz":
-    - "https://fmin.xyz"
+    - "https://arseny5.github.io/"
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
