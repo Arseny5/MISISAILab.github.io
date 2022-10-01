@@ -20,6 +20,6 @@ nav_order: 1
 # Преподаватели
 | Иванов Арсений | Калязин Николай | Братчиков Сергей | Даниил Волков |
 | ------------ | ------------- | ------------- | ------------- |
-| <img src="1.jpg" width="250"> SberAI <br> Tg: https://t.me/arsmathprog <br> Tg-канал: <https://t.me/ivarsivars> | <img src="3.jpg" width="250"> LevshAI <br> Tg:  https://t.me/FanatBoba | <img src="4.jpg" width="250"> University 20.35 <br> Tg:  https://t.me/hivaze | <img src="2.jpg" width="250"> RTLabs <br> Tg:  https://t.me/wolf_Da |
+| <img src="1.jpg" width="250"> | <img src="3.jpg" width="250"> | <img src="4.jpg" width="250"> | <img src="2.jpg" width="250">  |
 
 Октябрь, 2022 г.
