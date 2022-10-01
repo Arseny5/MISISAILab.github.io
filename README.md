@@ -20,9 +20,9 @@ nav_order: 1
 # Преподаватели
 <p align="center">
   <img src="1.jpg" width="350" title="hover text">
-  <img src="2.jpg" width="350" alt="accessibility text">
-  <img src="3.jpg" width="350" alt="accessibility text">
-  <img src="4.jpg" width="350" alt="accessibility text">
+  <img src="2.jpg" width="350">
+  <img src="3.jpg" width="350">
+  <img src="4.jpg" width="350">
 </p>
 
 Октябрь, 2022 г.
