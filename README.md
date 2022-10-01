@@ -18,8 +18,8 @@ nav_order: 1
 * [👨‍💻 Github](https://github.com/Arseny5/Arseny5.github.io)
 
 
-| col 1 | col 2 |
-| ------------ | ------------- |
-| <img src="https://media.wired.com/photos/5926db217034dc5f91becd6b/master/w_582,c_limit/so-logo-s.jpg" width="250"> | <img src="1.jpg" width="250"> |
+| Иванов Арсений | Даниил Волков | col 3 | col 4 |
+| ------------ | ------------- | ------------- | ------------- |
+| <img src="1.jpg" width="250"> | <img src="1.jpg" width="250"> | <img src="3.jpg" width="250"> | <img src="4.jpg" width="250"> |
 
 Октябрь, 2022 г.
