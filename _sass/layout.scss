@@ -6,7 +6,6 @@
   z-index: 0;
   display: flex;
   flex-wrap: wrap;
-  background-color: #3377FF;
   background: url('phoneimage.png');
 
   @include mq(md) {
