@@ -18,9 +18,9 @@ nav_order: 1
 * [👨‍💻 Github](https://github.com/Arseny5/Arseny5.github.io)
 
 
-| Иванов Арсений | Даниил Волков | Калязин Николай | Братчиков Сергей |
+| Иванов Арсений | Калязин Николай | Братчиков Сергей | Даниил Волков |
 | ------------ | ------------- | ------------- | ------------- |
-| <img src="1.jpg" width="250"> | <img src="2.jpg" width="250"> | <img src="3.jpg" width="250"> | <img src="4.jpg" width="250"> |
-| SberAI <br> Tg-канал: <https://t.me/ivarsivars> | ГосУслуги | LevshAI | University 20.35 |
+| <img src="1.jpg" width="250"> | <img src="3.jpg" width="250"> | <img src="4.jpg" width="250"> | <img src="2.jpg" width="250"> |
+| SberAI <br> Tg: https://t.me/arsmathprog <br> Tg-канал: <https://t.me/ivarsivars> <br> | LevshAI <br> Tg: @FanatBoba | University 20.35 <br> Tg: @hivaze | RTLabs <br> Tg: @wolf_Da |
 
 Октябрь, 2022 г.
