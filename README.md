@@ -18,9 +18,9 @@ nav_order: 1
 * [👨‍💻 Github](https://github.com/Arseny5/Arseny5.github.io)
 
 # Преподаватели
-<div style="display:flex justify-content:center">
-  <div><img src="1.jpg"></div>
-  <div><img src="2.jpg"></div>
-</div>
+<p align="center">
+  <img src="1.jpg" width="350" title="hover text">
+  <img src="2.jpg" width="350" alt="accessibility text">
+</p>
 
 Октябрь, 2022 г.
