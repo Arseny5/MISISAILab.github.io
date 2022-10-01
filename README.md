@@ -21,6 +21,8 @@ nav_order: 1
 <p align="center">
   <img src="1.jpg" width="350" title="hover text">
   <img src="2.jpg" width="350" alt="accessibility text">
+  <img src="3.jpg" width="350" alt="accessibility text">
+  <img src="4.jpg" width="350" alt="accessibility text">
 </p>
 
 Октябрь, 2022 г.
