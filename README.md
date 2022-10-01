@@ -21,6 +21,6 @@ nav_order: 1
 | Иванов Арсений | Даниил Волков | Калязин Николай | Братчиков Сергей |
 | ------------ | ------------- | ------------- | ------------- |
 | <img src="1.jpg" width="250"> | <img src="2.jpg" width="250"> | <img src="3.jpg" width="250"> | <img src="4.jpg" width="250"> |
-| SberAI <br> kjk | ГосУслуги | LevshAI | University 20.35 |
+| SberAI <br> Tg-канал: <https://t.me/ivarsivars> | ГосУслуги | LevshAI | University 20.35 |
 
 Октябрь, 2022 г.
