@@ -7,6 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #3377FF;
+  background: url('phoneimage.png');
 
   @include mq(md) {
     flex-wrap: nowrap;
