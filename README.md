@@ -18,8 +18,11 @@ nav_order: 1
 * [👨‍💻 Github](https://github.com/Arseny5/Arseny5.github.io)
 
 # Преподаватели
+
+
 | Иванов Арсений | Калязин Николай | Братчиков Сергей | Даниил Волков |
 | ------------ | ------------- | ------------- | ------------- |
 | <img src="1.jpg" width="250"> | <img src="3.jpg" width="250"> | <img src="4.jpg" width="250"> | <img src="2.jpg" width="250">  |
+| SberAI <br> [Telegram](https://t.me/arsmathprog) <br> [Telegram-канал](https://t.me/ivarsivars) | LevshAI <br> [Telegram](https://t.me/FanatBoba)  |  University 20.35 <br> [Telegram](https://t.me/hivaze)  | RTLabs <br> [Telegram](https://t.me/wolf_Da) |
 
 Октябрь, 2022 г.
