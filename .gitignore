@@ -1,1 +1,13 @@
-*.DS_Store
+_site
+.sass-cache
+.jekyll-metadata
+*.out
+.venv
+
+# direnv, posh-direnv
+.envrc
+.psenvrc
+
+.vscode
+
+cmake
