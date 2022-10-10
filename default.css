@@ -1,13 +1,4 @@
-/*!
-* Created by Kroplet (https://www.kroplet.com) 
-* The easiest way to create Bootstrap 4 themes. 
-*/
-
-/*!
-* Bootstrap v4.1.0 (https://getbootstrap.com) 
-* Copyright 2011-2017 The Bootstrap Authors 
-* Copyright 2011-2017 Twitter, Inc. 
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+﻿
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
@@ -49,7 +40,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent; 
+  overflow-x:hidden;}
 
 @-ms-viewport {
   width: device-width; }
@@ -58,12 +50,13 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block; }
 
 body {
-  margin: -8px;
-  background-color: #000;
-  background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
-  background-position: center;
+  margin: 0;
+  background-color: #000000;
+  overflow-x:hidden;
+  /* background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif); */
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 70%; */
   font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
@@ -86,6 +79,158 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
+
+
+  
+/* Окно формы */
+  .g-form {
+    width: 100%;
+    max-width: 450px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #263238;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.3rem;
+
+    /* background: #1c1e21; */
+    /* box-shadow: 0 0 20px rgba(0,0,0, .2); */
+  
+  }
+  .g-form__title {
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+  .g-form__title a {
+    color: #e8cd96;
+  }
+  .g-form__title_main {}
+  .g-form__preloader 
+  { 
+    height: 2px;
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+    opacity: 0;
+  }
+  .g-form__preloader:before {
+    background: mediumturquoise;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    -webkit-animation: smartlidPreloader 3s infinite;
+    animation: smartlidPreloader 3s infinite;
+  }
+  .g-form__title_respond {}
+  .g-form__inputs {}
+  .g-form__input-wrapper {
+    margin-bottom: 15px;
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .g-form__input-wrapper input, .g-form__input-wrapper textarea{
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid #25272b;
+    border-radius: 3px;
+    background: #11171a;
+    height: 50px;
+    font: 1rem 'Roboto', sans-serif;
+    outline: none;
+    color: #d2d2d3; 
+    font-weight: 300;
+  }
+  .g-form__input-wrapper textarea {
+    padding: 15px;
+    height: 100px;
+    resize: none;
+  }
+  .g-form__input-wrapper input:focus, .g-form__input-wrapper textarea:focus {
+    border-color: #7055f0; 
+  }
+  
+  .g-form__input-wrapper_hidden {
+    display: none;
+  }
+  .g-form__button-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .g-form__button {
+    background: #7055f0;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    font: 400 .9rem 'Roboto', sans-serif;
+    color: #d2d2d3;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 3px 10px rgba(0,0,0, .2);
+  }
+  
+  .g-form__button:hover {
+    transition: .3s;
+    box-shadow: 0 1px 1px rgba(0,0,0, .2);
+    color: #fff;
+    background: #37b599;
+  }
+  
+  @media (max-width: 480px) {
+    html, body {
+      padding: 15px;
+    }
+    .g-form {
+      padding: 30px;
+    }
+    .g-form__title {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 359px) {
+    .g-form {
+      padding: 15px;
+    }
+  }
+  
+  @-webkit-keyframes smartlidPreloader {
+    0% {
+      left: 0; }
+      50% {
+        left: -webkit-calc(100% - 50px);
+        left: calc(100% - 50px); }
+        100% {
+          left: 0%; } 
+        }
+  
+        @keyframes smartlidPreloader {
+          0% {
+            left: 0; }
+            50% {
+              left: -webkit-calc(100% - 50px);
+              left: calc(100% - 50px); }
+              100% {
+                left: 0%; } 
+              }
+/* Окно формы */
+
+
 
 abbr[title],
 abbr[data-original-title] {
@@ -2995,6 +3140,8 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
+  /* margin-top: 40px; */
+  margin-bottom: -23px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -3299,6 +3446,9 @@ input[type="button"].btn-block {
 .card {
   position: relative;
   display: -ms-flexbox;
+  /* width: 140px;
+  height: 200px; */
+  margin-bottom: 15px;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
@@ -3379,6 +3529,8 @@ input[type="button"].btn-block {
   border-radius: calc(0.3rem - 0px); }
 
 .card-img-top {
+  /* width: 409px;
+  height: 409px; */
   width: 100%;
   border-top-left-radius: calc(0.3rem - 0px);
   border-top-right-radius: calc(0.3rem - 0px); }
@@ -5912,7 +6064,13 @@ button.bg-dark:focus {
 
 .pt-6,
 .py-6 {
-  padding-top: 6rem !important; }
+  padding-top: 3rem; 
+  padding-bottom: -60px;
+}
+footer{
+  height: 400px;
+  width: max-width;
+}
 
 .pr-6,
 .px-6 {
@@ -7523,7 +7681,7 @@ body {
 
 /*smart scrolling*/
 .smart-scroll {
-  position: fixed;
+  position: static;
   top: 0;
   z-index: 1020;
   width: 100%;
@@ -7579,6 +7737,7 @@ body {
   background-position: right;
   background-repeat: no-repeat;
   background-size: 100%;
+  /* margin-top: -50px; */
   /* background-color: #000000;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='#000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='#053529' cx='400' cy='400' r='500'/%3E%3Ccircle fill='#0a634d' cx='400' cy='400' r='400'/%3E%3Ccircle fill='#0e9271' cx='400' cy='400' r='300'/%3E%3Ccircle fill='#13c095' cx='400' cy='400' r='200'/%3E%3Ccircle fill='#1de9b6' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
   /* background by SVGBackgrounds.com */
